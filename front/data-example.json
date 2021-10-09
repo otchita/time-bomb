@@ -1,0 +1,20 @@
+{
+  "gameStarted": true,
+  "phase": 2,
+  "step": 1,
+  "board": {
+    "secure": 3,
+    "defuse": 2,
+    "bomb": 0
+  },
+  "playerNames": ["laliche", "ouss", "fanny", "fab", "rémi"],
+  "playerCards": {
+    "laliche": 4,
+    "ouss": 4,
+    "fanny": 4,
+    "fab": 4,
+    "rémi": 4
+  },
+  "pincher": "laliche",
+  "winnerTeam": null
+}

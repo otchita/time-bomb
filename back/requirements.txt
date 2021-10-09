@@ -1,0 +1,3 @@
+falsk
+flask-cors
+flask-socketio

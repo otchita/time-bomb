@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+    <script type="text/javascript">
+        var socket = io.connect();
+    </script>
+</head>
+<body>
+    <script>
+        fetch("http://127.0.0.1:5000/api/games", {}).then(res => {
+            console.log("Request complete! response:", res);
+        });
+    </script>
+
+</body>
+</html>
